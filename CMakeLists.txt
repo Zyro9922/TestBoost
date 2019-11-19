@@ -131,6 +131,6 @@ add_library(astronomy_include_directories INTERFACE)
 target_include_directories(astronomy_include_directories
         BEFORE
         INTERFACE
-        ${CMAKE_CURRENT_SOURCE_DIR}/include)
+        ${/Users/alihasan/Documents/GSOC/astronomy/include})
 
 add_executable(untitled1 main.cpp)
