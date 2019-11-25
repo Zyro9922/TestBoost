@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14
 
-CXX_DEFINES = 
+CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /usr/local/include 
 

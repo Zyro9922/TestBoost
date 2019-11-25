@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled1
+# Target rules for targets named Executable
 
 # Build rule for target.
-untitled1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 untitled1
-.PHONY : untitled1
+Executable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Executable
+.PHONY : Executable
 
 # fast build rule for target.
-untitled1/fast:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/build
-.PHONY : untitled1/fast
+Executable/fast:
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/build
+.PHONY : Executable/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... untitled1"
+	@echo "... Executable"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
