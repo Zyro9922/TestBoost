@@ -9,6 +9,7 @@
 using namespace boost::posix_time;
 using boost::gregorian::date;
 
+//Conversion of Julian Day to J2000
 long double j2000_format(date a)
 {
     date j2000(2000, 01, 01);
@@ -16,7 +17,7 @@ long double j2000_format(date a)
 }
 
 /**
- *Equatorial to horizon Coordinate Conversion
+ *Equatorial to Horizon Coordinate Conversion
  *
  * Symbols used
  * H - Hour Angle
@@ -196,7 +197,7 @@ int main()
      * 283◦ 16' 15.6976''
      * 19◦ 20' 3.64298''
      *
-     * Verified from
+     * Verified from (Practical_Astronomy_with_your_Calculator_or_Spreadsheet_4th_edition_by_Peter_Duffett-Smith_Jonathan_Zwart Page 47)
      *
      * Example 2
      *
@@ -209,6 +210,6 @@ int main()
      * 79◦ 33' 26.8251''
      * -21◦ 52' 49.8622''
      *
-     * Verified from
+     * Verified from (lawrence_j_l_celestial_calculations_a_gentle_introduction_to Page 90)
      */
 }
