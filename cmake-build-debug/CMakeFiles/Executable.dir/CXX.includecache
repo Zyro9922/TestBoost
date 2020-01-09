@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/horizon_to_equatorial.cpp
+iostream
+-
+math.h
+-
+fstream
+-
+
