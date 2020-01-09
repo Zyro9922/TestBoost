@@ -208,4 +208,3 @@ int main()
      * Verified from (lawrence_j_l_celestial_calculations_a_gentle_introduction_to Page 89)
      */
 }
-//19 20 3.64 283 16 15.7 52

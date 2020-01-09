@@ -148,7 +148,9 @@ void printHorizonCoordinates(ld azimuth, ld altitude)
     //A - azimuth
     //A'- Temp azimuth
     //a - altitude
+    std::cout<<"Azimuth: ";
     DMS printAzimuth(azimuth);
+    std::cout<<"\nAltitude: ";
     DMS printAltitude(altitude);
 }
 
