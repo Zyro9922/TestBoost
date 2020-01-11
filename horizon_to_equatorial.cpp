@@ -7,7 +7,6 @@
  * Horizon to Equatorial Coordinates Conversion
  *
  * Symbols used
- * Symbols used
  * H - Hour Angle
  * δ - Declination
  * A - azimuth
