@@ -57,27 +57,27 @@ include CMakeFiles/Executable.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Executable.dir/flags.make
 
-CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o: CMakeFiles/Executable.dir/flags.make
-CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o: ../horizon_to_equatorial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o -c /Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/horizon_to_equatorial.cpp
+CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o: CMakeFiles/Executable.dir/flags.make
+CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o: ../right_ascension_to_hour_angle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o -c /Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/right_ascension_to_hour_angle.cpp
 
-CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/horizon_to_equatorial.cpp > CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.i
+CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/right_ascension_to_hour_angle.cpp > CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.i
 
-CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/horizon_to_equatorial.cpp -o CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.s
+CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/right_ascension_to_hour_angle.cpp -o CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.s
 
 # Object files for target Executable
 Executable_OBJECTS = \
-"CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o"
+"CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o"
 
 # External object files for target Executable
 Executable_EXTERNAL_OBJECTS =
 
-Executable: CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o
+Executable: CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o
 Executable: CMakeFiles/Executable.dir/build.make
 Executable: CMakeFiles/Executable.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Executable"

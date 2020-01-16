@@ -123,32 +123,32 @@ Executable/fast:
 	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/build
 .PHONY : Executable/fast
 
-horizon_to_equatorial.o: horizon_to_equatorial.cpp.o
+right_ascension_to_hour_angle.o: right_ascension_to_hour_angle.cpp.o
 
-.PHONY : horizon_to_equatorial.o
+.PHONY : right_ascension_to_hour_angle.o
 
 # target to build an object file
-horizon_to_equatorial.cpp.o:
-	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o
-.PHONY : horizon_to_equatorial.cpp.o
+right_ascension_to_hour_angle.cpp.o:
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o
+.PHONY : right_ascension_to_hour_angle.cpp.o
 
-horizon_to_equatorial.i: horizon_to_equatorial.cpp.i
+right_ascension_to_hour_angle.i: right_ascension_to_hour_angle.cpp.i
 
-.PHONY : horizon_to_equatorial.i
+.PHONY : right_ascension_to_hour_angle.i
 
 # target to preprocess a source file
-horizon_to_equatorial.cpp.i:
-	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.i
-.PHONY : horizon_to_equatorial.cpp.i
+right_ascension_to_hour_angle.cpp.i:
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.i
+.PHONY : right_ascension_to_hour_angle.cpp.i
 
-horizon_to_equatorial.s: horizon_to_equatorial.cpp.s
+right_ascension_to_hour_angle.s: right_ascension_to_hour_angle.cpp.s
 
-.PHONY : horizon_to_equatorial.s
+.PHONY : right_ascension_to_hour_angle.s
 
 # target to generate assembly for a file
-horizon_to_equatorial.cpp.s:
-	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.s
-.PHONY : horizon_to_equatorial.cpp.s
+right_ascension_to_hour_angle.cpp.s:
+	$(MAKE) -f CMakeFiles/Executable.dir/build.make CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.s
+.PHONY : right_ascension_to_hour_angle.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Executable"
-	@echo "... horizon_to_equatorial.o"
-	@echo "... horizon_to_equatorial.i"
-	@echo "... horizon_to_equatorial.s"
+	@echo "... right_ascension_to_hour_angle.o"
+	@echo "... right_ascension_to_hour_angle.i"
+	@echo "... right_ascension_to_hour_angle.s"
 .PHONY : help
 
 

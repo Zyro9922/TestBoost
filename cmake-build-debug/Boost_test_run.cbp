@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/horizon_to_equatorial.cpp">
+		<Unit filename="/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/right_ascension_to_hour_angle.cpp">
 			<Option target="Executable"/>
 		</Unit>
 		<Unit filename="/Users/alihasan/Documents/GSOC/Experiments/TestBoost/TestBoost/CMakeLists.txt">

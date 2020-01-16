@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Executable.dir/horizon_to_equatorial.cpp.o"
+  "CMakeFiles/Executable.dir/right_ascension_to_hour_angle.cpp.o"
   "Executable"
   "Executable.pdb"
 )
