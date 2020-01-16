@@ -192,8 +192,6 @@ void take_input()
               local_calendar_day, local_calendar_month, local_calendar_year);
 }
 
-
-
 int main()
 {
     freopen("input.txt","r",stdin);
